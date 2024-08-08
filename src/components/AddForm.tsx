@@ -14,7 +14,7 @@ const SignupSchema = Yup.object().shape({
         .required('Required'),
     description: Yup.string()
         .min(2, 'Too Short!')
-        .max(50, 'Too Long!')
+        .max(150, 'Too Long!')
         .required('Required'),
     isPureVeg: Yup.boolean()
         .required('Required'),
